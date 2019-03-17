@@ -1,16 +1,19 @@
 # README #
-This is a blank template for a react.js application
-SASS and live reload have already been configured.
+This is a Rick and Morty React app. A school project.
 
 #How do I get set up?
 Clone the repo
 
 cd into repo
 
-npm install
+`npm install`
 
-npm start
+`npm start`
+
+#To build for development
+
+`npm run start`
 
 #To build for production
 
-npm run build
+`npm run build`

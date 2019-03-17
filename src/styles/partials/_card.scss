@@ -1,0 +1,24 @@
+.card {
+	background: khaki;
+	border-radius: 4px;
+	padding: 20px;
+	margin-top: 30px;
+
+	&:hover {
+		box-shadow: 0 0 10px 14px rgba(0,0,0,.5);
+		transform: scale(1.04);
+	}
+}
+
+.row {
+	background: khaki;
+	margin-top: 50px;
+
+	.col-sm-12 {
+		padding: 40px;
+
+		.row {
+			margin-top: 0;
+		}
+	}
+}

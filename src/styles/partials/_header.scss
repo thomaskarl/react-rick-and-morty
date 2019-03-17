@@ -1,0 +1,19 @@
+.header {
+	img {
+		width: 150px;
+		position: fixed;
+		left: 0;
+		transform: rotateZ(-30deg);
+		z-index: 9;
+		padding: 20px;
+		margin: 20px;
+		background: white;
+		border-radius: 50%;
+		border: 10px solid khaki;
+		transition: 1s;
+
+		&:hover {
+			transform: rotateZ(-380deg);
+		}
+	}
+}
